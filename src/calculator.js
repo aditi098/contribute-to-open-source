@@ -12,7 +12,7 @@ exports.add = (x, y) => {
   if (typeof y !== 'number') {
     throw new TypeError(`${y} is not a number`);
   }
-  return x + y;
+  return x + y+1-1;
 };
 
 exports.subtract = (x, y) => {
